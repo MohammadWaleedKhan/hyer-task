@@ -1,0 +1,214 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.back-img{
+    background-image: url("../image/download\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.container{
+    margin: 0;
+    width: auto;
+    padding-bottom: 50px;
+}
+
+.fb{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 40px;
+}
+
+.nav-heading{
+    margin: 0 40px 0 45px;
+}
+
+.main-heading{
+    margin: 0 60px;
+}
+
+.main-heading svg{
+    width: 780px;
+}
+
+.menu-item{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.menu-item li a{
+    text-decoration: none;
+    color: #000d10;
+    margin-left: 30px;
+    font-size: 23px;
+    font-family: sans-serif;
+
+}
+
+.mid-heading{
+    margin: 80px 0 0 27px;
+}
+
+.mid-heading h1{
+    font-size: 60px;
+    letter-spacing: -2px;
+}
+
+.two-btns{
+    display: flex;
+    margin: 0 0 0 40px;
+}
+
+.circle-btn{
+    background-color: #000d10;
+    padding:  16px 16px 12px 16px;
+    margin:  0px 0 10px 12px;
+    border-radius: 100%;
+    border: none;
+}
+
+.circle-btn a{
+    color: white;
+    font-size: 20px;
+}
+
+.circle-btn a svg{
+    border: 1px solid black;
+}
+
+.para-btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 60px 0 60px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+    height: 35vh;
+}
+
+.para-btns p{
+    font-weight: 600;
+    font-size: 23px;
+    margin: 0;
+}
+
+.lg-btn{
+    padding: 15px 30px;
+    background-color: #000d10;
+    color: white;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+hr{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.shape{
+    border-radius: 3em;
+}
+
+.hp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parah{
+    margin-left: 700px;
+    margin-right: 120px;
+}
+
+.parah h2{
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -.06em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.grids{
+    display: grid;
+    list-style: none;
+    margin-left: 660px;
+}
+.list-item{
+    border-top: 1px solid black;
+    padding: 20px 0 20px 0;
+}
+.list-item h3{
+    color: #000000;
+}
+
+.list-item p{
+    font-size: 23px;
+    color: #bfbfc3;
+}
+
+.only{
+    padding-left: 20px;
+}
+
+.sep{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-column{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columns{
+    background-color: aqua;
+    height: 110vh;
+    padding: 50x;
+}
+
+.grid-sec{
+    background-color: #000000;
+}
+
+.name-btn{
+    flex-direction: column;
+    margin: 0;
+}
+
+.jusf{
+    background-color: rgb(21, 22, 35);
+}
+
+.dif{
+    background-color: rgb(188, 113, 85);
+}
+
+.name-btn h1, p, button{
+    color: #ffffff;
+}
+
+.name-btn h1{
+    font-size: 50px;
+}
+
+.name-btn p{
+    font-size: 23px;
+}
+
+.solution-btn{
+    border-radius: 0.6em;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 23px;
+    padding: 10px;
+}
